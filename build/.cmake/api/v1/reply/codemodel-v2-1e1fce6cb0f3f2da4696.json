@@ -1,0 +1,86 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "superbible7",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-debug-Debug-6a489c762bfdb6e07969.json",
+					"name" : "debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-b64eb1985158fc261a32.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "release::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-release-Debug-f19e8ab1f56e5554bab2.json",
+					"name" : "release",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sb7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sb7-Debug-a14ed75a7b7b401d3c51.json",
+					"name" : "sb7",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/build",
+		"source" : "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

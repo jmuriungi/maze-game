@@ -1,0 +1,52 @@
+[
+{
+  "directory": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/sb7.dir/includes_CXX.rsp  -fopenmp -g -o CMakeFiles\\sb7.dir\\src\\sb7\\sb7.cpp.obj -c \"C:\\Users\\jerem\\Documents\\2021WHITSPRING_Computer Graphics\\PROJ_4_midterm_project\\proj_mid_maze_g9\\src\\sb7\\sb7.cpp\"",
+  "file": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/src/sb7/sb7.cpp"
+},
+{
+  "directory": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/sb7.dir/includes_CXX.rsp  -fopenmp -g -o CMakeFiles\\sb7.dir\\src\\sb7\\sb7color.cpp.obj -c \"C:\\Users\\jerem\\Documents\\2021WHITSPRING_Computer Graphics\\PROJ_4_midterm_project\\proj_mid_maze_g9\\src\\sb7\\sb7color.cpp\"",
+  "file": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/src/sb7/sb7color.cpp"
+},
+{
+  "directory": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/sb7.dir/includes_CXX.rsp  -fopenmp -g -o CMakeFiles\\sb7.dir\\src\\sb7\\sb7ktx.cpp.obj -c \"C:\\Users\\jerem\\Documents\\2021WHITSPRING_Computer Graphics\\PROJ_4_midterm_project\\proj_mid_maze_g9\\src\\sb7\\sb7ktx.cpp\"",
+  "file": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/src/sb7/sb7ktx.cpp"
+},
+{
+  "directory": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/sb7.dir/includes_CXX.rsp  -fopenmp -g -o CMakeFiles\\sb7.dir\\src\\sb7\\sb7object.cpp.obj -c \"C:\\Users\\jerem\\Documents\\2021WHITSPRING_Computer Graphics\\PROJ_4_midterm_project\\proj_mid_maze_g9\\src\\sb7\\sb7object.cpp\"",
+  "file": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/src/sb7/sb7object.cpp"
+},
+{
+  "directory": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/sb7.dir/includes_CXX.rsp  -fopenmp -g -o CMakeFiles\\sb7.dir\\src\\sb7\\sb7shader.cpp.obj -c \"C:\\Users\\jerem\\Documents\\2021WHITSPRING_Computer Graphics\\PROJ_4_midterm_project\\proj_mid_maze_g9\\src\\sb7\\sb7shader.cpp\"",
+  "file": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/src/sb7/sb7shader.cpp"
+},
+{
+  "directory": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/sb7.dir/includes_CXX.rsp  -fopenmp -g -o CMakeFiles\\sb7.dir\\src\\sb7\\sb7textoverlay.cpp.obj -c \"C:\\Users\\jerem\\Documents\\2021WHITSPRING_Computer Graphics\\PROJ_4_midterm_project\\proj_mid_maze_g9\\src\\sb7\\sb7textoverlay.cpp\"",
+  "file": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/src/sb7/sb7textoverlay.cpp"
+},
+{
+  "directory": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-gcc.exe  @CMakeFiles/sb7.dir/includes_C.rsp  -fopenmp -g -o CMakeFiles\\sb7.dir\\src\\sb7\\gl3w.c.obj -c \"C:\\Users\\jerem\\Documents\\2021WHITSPRING_Computer Graphics\\PROJ_4_midterm_project\\proj_mid_maze_g9\\src\\sb7\\gl3w.c\"",
+  "file": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/src/sb7/gl3w.c"
+},
+{
+  "directory": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/sb7.dir/includes_CXX.rsp  -fopenmp -g -o CMakeFiles\\sb7.dir\\src\\functions\\loadingFunctions.cpp.obj -c \"C:\\Users\\jerem\\Documents\\2021WHITSPRING_Computer Graphics\\PROJ_4_midterm_project\\proj_mid_maze_g9\\src\\functions\\loadingFunctions.cpp\"",
+  "file": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/src/functions/loadingFunctions.cpp"
+},
+{
+  "directory": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/sb7.dir/includes_CXX.rsp  -fopenmp -g -o CMakeFiles\\sb7.dir\\src\\functions\\skybox.cpp.obj -c \"C:\\Users\\jerem\\Documents\\2021WHITSPRING_Computer Graphics\\PROJ_4_midterm_project\\proj_mid_maze_g9\\src\\functions\\skybox.cpp\"",
+  "file": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/src/functions/skybox.cpp"
+},
+{
+  "directory": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp  -fopenmp -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"C:\\Users\\jerem\\Documents\\2021WHITSPRING_Computer Graphics\\PROJ_4_midterm_project\\proj_mid_maze_g9\\src\\main.cpp\"",
+  "file": "C:/Users/jerem/Documents/2021WHITSPRING_Computer Graphics/PROJ_4_midterm_project/proj_mid_maze_g9/src/main.cpp"
+}
+]
