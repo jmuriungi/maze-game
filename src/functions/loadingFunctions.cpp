@@ -1,5 +1,7 @@
 
-#include <loadingFunctions.h>
+#include "../../headers/loadingFunctions.hpp"
+#include "../../headers/sb7-h/vmath.h"
+#include <vector>
 //Object Loading Information
 //Referenced from https://en.wikibooks.org/wiki/OpenGL_Programming/Modern_OpenGL_Tutorial_Load_OBJ
 // and http://www.opengl-tutorial.org/beginners-tutorials/tutorial-7-model-loading/ 

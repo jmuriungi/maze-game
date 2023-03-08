@@ -56,5 +56,4 @@ public:
 
 std::ostream& operator<<(std::ostream& output, const simpleMaze& mazeObj);
 
-
 #endif

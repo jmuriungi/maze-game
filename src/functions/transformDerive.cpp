@@ -1,7 +1,7 @@
-#ifndef _TRANSFORMS_CPP_
-#define _TRANSFORMS_CPP_
+// #ifndef _TRANSFORMS_CPP_
+// #define _TRANSFORMS_CPP_
 // Methods for generating rotation matrices
-#include <transformDerive.h>
+#include "../../headers/transformDerive.hpp" // <transformDerive.h>
 
 // Generate rotation matrix using euler angles
 // Input: x, y, z - euler angles for rotation
@@ -55,4 +55,4 @@ vmath::mat3 getRotataionN(float angle, vmath::vec3 axis) {
     );
 }
 
-#endif
+// #endif

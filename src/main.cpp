@@ -12,13 +12,13 @@
  * 
  */
 
-#include <sb7.h>
-#include <shader.h>
-#include <vmath.h>
+#include "../headers/sb7-h/sb7.h"
+#include "../headers/sb7-h/shader.h"
+#include "../headers/sb7-h/vmath.h"
 #include <map> // For holding maze components
 
-#include <loadingFunctions.h>  // header for object loading
-#include <skybox.h>  // skybox header
+#include "../headers/loadingFunctions.hpp"     //<loadingFunctions.h>  // header for object loading
+#include "../headers/skybox.hpp"  // skybox header
 
 // Implementations of class structures we use in our application
 #include "camera.cpp"

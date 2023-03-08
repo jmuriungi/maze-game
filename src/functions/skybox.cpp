@@ -8,9 +8,14 @@
 * Dr. Anton Gerdelan, https://github.com/capnramses 
 *                     https://antongerdelan.net/opengl/cubemaps.html                 
 */
-#include <skybox.h>
 #include <fstream>
-#include <loadingFunctions.h>
+#include "../../headers/skybox.hpp"
+#include "../../headers/loadingFunctions.hpp"
+#include "../../headers/sb7-h/vmath.h"
+// #include "GL/GL.h"
+// #include "../../headers/sb7-h/shader.h"
+#include "../../headers/sb7-h/sb7ext.h"
+#include <vector>
 
 void createCube(std::vector<vmath::vec4> &vertices){
     //We need to enumerate all of the different sides of a cube
@@ -29,18 +34,18 @@ void createCube(std::vector<vmath::vec4> &vertices){
 
 void subPoints(int a, int b, int c, int d,std::vector<vmath::vec4> &vertices){
     //Triangle 1
-    vertices.push_back(CUBE_VERTICES[a]);
-    //vertices.push_back(CUBE_VERTICES[b]); //This is has to do with the winding order (this will be CW)
-    vertices.push_back(CUBE_VERTICES[c]);
+    vertices.push_back(vertices[a]);
+    //vertices.push_back(vertices[b]); //This is has to do with the winding order (this will be CW)
+    vertices.push_back(vertices[c]);
 
-    vertices.push_back(CUBE_VERTICES[b]); //This is CCW winding
+    vertices.push_back(vertices[b]); //This is CCW winding
 
     //Triangle 2
-    vertices.push_back(CUBE_VERTICES[a]);
-    //vertices.push_back(CUBE_VERTICES[c]); //This is has to do with the winding order (this will be CW)
-    vertices.push_back(CUBE_VERTICES[d]);
+    vertices.push_back(vertices[a]);
+    //vertices.push_back(vertices[c]); //This is has to do with the winding order (this will be CW)
+    vertices.push_back(vertices[d]);
 
-    vertices.push_back(CUBE_VERTICES[c]); //This is CCW winding
+    vertices.push_back(vertices[c]); //This is CCW winding
 }
 
 void loadCubeTextures(std::string directory, GLuint texture_ID){
@@ -156,4 +161,30 @@ void loadCubeSide(GLint texture_ID, GLenum side, std::string file){
 	delete[] texture_data;
 
     return; 
+}
+
+unsigned int charToUInt(char * loc){
+    // Data coming in like:
+    // loc[0] : 0x00
+    // loc[1] : 0x02
+    // loc[2] : 0x00
+    // loc[3] : 0x00
+    // output 00 00 02 00 = 0x00000200
+    unsigned int base = 0;
+
+    //                  VVVVVVVV Casting does work, but it is going from 1 byte (char) to 4 bytes int
+    //                           based on how 1's compliment works, 1111 get padded if the most significant bit is 1
+    //                                          VVVVV Mask off all those ones that might show up
+    base = (static_cast<unsigned int>(loc[3]) & 0x0FF); //Start with the 'highest' byte
+    base = base << 8; //Shift over to make room for the next
+
+    base += (static_cast<unsigned int>(loc[2]) & 0x0FF); //Rinse and repeat
+    base = base << 8;
+
+    base += (static_cast<unsigned int>(loc[1]) & 0x0FF);
+    base = base << 8;
+
+    base += (static_cast<unsigned int>(loc[0]) & 0x0FF);
+    
+    return base;   
 }

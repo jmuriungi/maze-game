@@ -1,6 +1,6 @@
 #include "../headers/camera.h"
 #include "./functions/transformDerive.cpp"
-#include <vmath.h>
+#include "../headers/sb7-h/vmath.h" //<vmath.h>
 
 #define M_PI     3.14159265358979323846
 

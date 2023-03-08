@@ -13,12 +13,12 @@
  */
 
 #include "../headers/object.h"
-#include <transformDerive.h>
-#include <loadingFunctions.h>
+#include "../headers/transformDerive.hpp" //<transformDerive.h>
+#include "../headers/loadingFunctions.hpp" //<loadingFunctions.h>
 #include <fstream>
 #include <iostream>
 
-#include <sb7.h> // For access to openGL methods
+#include "../headers/sb7-h/sb7.h" //<sb7.h> // For access to openGL methods
 
 object::object() {
     this->position = vmath::vec3();

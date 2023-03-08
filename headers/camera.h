@@ -1,8 +1,8 @@
 #ifndef _CAMERA_H_
 #define _CAMERA_H_
 
-#include <sb7.h>
-#include <vmath.h>
+#include "../headers/sb7-h/sb7.h" //<sb7.h>
+#include "../headers/sb7-h/vmath.h" //<vmath.h>
 
 // Class object to encapsulates general camera behavior
 class camera {

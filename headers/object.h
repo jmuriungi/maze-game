@@ -3,8 +3,8 @@
 
 #include <string>
 #include <vector>
-#include <sb7.h>
-#include <vmath.h>
+#include "../headers/sb7-h/sb7.h"
+#include "../headers/sb7-h/vmath.h"
 
 // Structure to hold properties of a rendered object
 // Contents based on Scott's example of object loading
